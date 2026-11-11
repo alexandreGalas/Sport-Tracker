@@ -1,0 +1,25 @@
+/* Vue Progrès */
+.pg { padding-bottom: 8px; }
+.pg .stack { display: flex; flex-direction: column; gap: 12px; }
+.pg-goal-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.pg-goal-label { font-weight: 600; }
+.pg-goal-pct { font-size: 0.9rem; color: var(--muted, #888); font-variant-numeric: tabular-nums; }
+.pg-goal-pct.is-done { color: var(--accent, #4ade80); font-weight: 600; }
+.pg-goal-values { margin: 4px 0 10px; font-size: 1.05rem; }
+.pg-bar { height: 10px; border-radius: 999px; background: var(--grid, rgba(128,128,128,.3)); overflow: hidden; }
+.pg-bar-fill { height: 100%; border-radius: 999px; background: var(--accent, #4ade80); min-width: 2px; transition: width .4s ease; }
+.pg-chart-title { margin: 0 0 8px; font-size: 1rem; font-weight: 600; }
+.pg-note { margin: 8px 0 0; font-size: 0.8rem; }
+.pg-streak-row { display: flex; gap: 12px; margin-bottom: 10px; }
+.pg-streak { flex: 1; text-align: center; }
+.pg-streak-num { font-size: 1.8rem; font-weight: 700; color: var(--accent, #4ade80); line-height: 1.2; }
+.pg-tabs { display: flex; gap: 4px; padding: 4px; border-radius: 12px; background: var(--grid, rgba(128,128,128,.2)); margin-top: 8px; }
+.pg-tab { flex: 1; min-height: 44px; border: 0; border-radius: 9px; background: transparent; color: inherit; font: inherit; font-weight: 600; cursor: pointer; }
+.pg-tab.active { background: var(--accent, #4ade80); color: var(--on-accent, #0b1a10); }
+.pg-body { margin-top: 12px; }
+.pg-body .stack { display: flex; flex-direction: column; gap: 12px; }
+.pg-best-row { display: flex; gap: 12px; }
+.pg-best { flex: 1; text-align: center; }
+.pg-best-val { font-size: 1.7rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pg-best-date { font-size: 0.8rem; }
+.chart text { font-family: inherit; }

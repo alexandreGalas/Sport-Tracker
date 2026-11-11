@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-11",
+  "coachNote": "Bloc 1 : installer la régularité course + calisthénie. Tractions en sous-maximal (jamais à l'échec), course majoritairement facile.",
+  "startDate": "2026-11-16",
+  "goals": [
+    { "id": "pullups-max", "label": "15 tractions strictes", "metric": "maxPullups", "current": 11, "target": 15, "unit": "reps" },
+    { "id": "lsit-hold", "label": "L-sit 15 s", "metric": "maxLsit", "current": 5, "target": 15, "unit": "s" },
+    { "id": "5k", "label": "5 km sous 25 min", "metric": "best5k", "current": 1800, "target": 1500, "unit": "sec" },
+    { "id": "10k", "label": "10 km sous 50 min", "metric": "best10k", "current": 3600, "target": 3000, "unit": "sec" },
+    { "id": "weekly-km", "label": "15 km / semaine", "metric": "weeklyKm", "current": 0, "target": 15, "unit": "km" }
+  ],
+  "constraints": ["Volume de poussée limité (pompes, dips) : poussée légère et facultative uniquement."],
+  "exercises": {
+    "pullup":        { "name": "Tractions pronation", "metric": "reps" },
+    "chinup":        { "name": "Tractions supination", "metric": "reps" },
+    "aus-row":       { "name": "Rowing australien", "metric": "reps" },
+    "lsit":          { "name": "L-sit", "metric": "seconds", "tip": "Version groupée (tuck) autorisée si la forme casse." },
+    "hollow":        { "name": "Hollow body", "metric": "seconds" },
+    "pike-pushup":   { "name": "Pompes en pike", "metric": "reps", "optional": true, "tip": "Léger, facultatif." },
+    "bulgarian":     { "name": "Fentes bulgares", "metric": "reps", "perSide": true },
+    "pistol":        { "name": "Pistol squat", "metric": "reps", "perSide": true },
+    "sl-glute":      { "name": "Pont fessier une jambe", "metric": "reps", "perSide": true },
+    "knee-raise":    { "name": "Relevés de genoux suspendu", "metric": "reps", "tip": "Objectif : toes-to-bar." },
+    "pullup-test":   { "name": "Test max tractions", "metric": "reps", "test": "maxPullups" },
+    "lsit-test":     { "name": "Test max L-sit", "metric": "seconds", "test": "maxLsit" }
+  },
+  "sessions": {
+    "run-easy-25": {
+      "type": "run", "runType": "easy", "title": "Footing facile 25 min",
+      "plan": { "distanceKm": 3.5, "durationSec": 1500 },
+      "description": "Allure où tu peux parler (~7:00/km). Le matin, ou après la calisthénie."
+    },
+    "run-easy-30": {
+      "type": "run", "runType": "easy", "title": "Footing facile 30 min",
+      "plan": { "distanceKm": 4.3, "durationSec": 1800 },
+      "description": "Allure où tu peux parler (~7:00/km)."
+    },
+    "run-intervals-6x400": {
+      "type": "run", "runType": "intervals", "title": "Fractionné 6 × 400 m",
+      "plan": { "distanceKm": 6, "durationSec": 2700 },
+      "description": "Échauffement 15 min facile, 6 × 400 m vite (~2:00 chacun) avec 1:30 de trot entre, retour au calme 10 min."
+    },
+    "run-tempo-20": {
+      "type": "run", "runType": "tempo", "title": "Tempo 20 min",
+      "plan": { "distanceKm": 7, "durationSec": 2700 },
+      "description": "Échauffement 15 min facile, 20 min à allure soutenue mais tenable (~6:00/km), retour au calme 10 min."
+    },
+    "run-long-8": {
+      "type": "run", "runType": "long", "title": "Sortie longue 8 km",
+      "plan": { "distanceKm": 8, "durationSec": 3360 },
+      "description": "Bonus week-end. Tout en facile."
+    },
+    "run-test-5k": {
+      "type": "run", "runType": "test", "title": "Test 5 km chrono",
+      "plan": { "distanceKm": 5, "durationSec": 1800 },
+      "description": "Échauffement 10 min, puis 5 km au maximum de ce que tu peux tenir. Note le temps exact."
+    },
+    "cali-a-w1": {
+      "type": "calisthenics", "title": "Séance A : tirage et gainage",
+      "description": "Tractions sous-maximales : arrête-toi avec 3-4 reps en réserve.",
+      "exercises": [
+        { "id": "pullup", "sets": 5, "target": 5, "restSec": 120 },
+        { "id": "aus-row", "sets": 3, "target": 10, "restSec": 90 },
+        { "id": "lsit", "sets": 5, "target": 5, "restSec": 60 },
+        { "id": "hollow", "sets": 3, "target": 30, "restSec": 60 },
+        { "id": "pike-pushup", "sets": 2, "target": 8, "restSec": 90 }
+      ]
+    },
+    "cali-a-w2": {
+      "type": "calisthenics", "title": "Séance A : tirage et gainage",
+      "description": "Tractions sous-maximales : arrête-toi avec 3-4 reps en réserve.",
+      "exercises": [
+        { "id": "pullup", "sets": 5, "target": 6, "restSec": 120 },
+        { "id": "aus-row", "sets": 3, "target": 12, "restSec": 90 },
+        { "id": "lsit", "sets": 5, "target": 6, "restSec": 60 },
+        { "id": "hollow", "sets": 3, "target": 35, "restSec": 60 },
+        { "id": "pike-pushup", "sets": 2, "target": 8, "restSec": 90 }
+      ]
+    },
+    "cali-a-w3": {
+      "type": "calisthenics", "title": "Séance A : tirage et gainage",
+      "description": "Tractions sous-maximales : arrête-toi avec 2-3 reps en réserve.",
+      "exercises": [
+        { "id": "pullup", "sets": 6, "target": 6, "restSec": 120 },
+        { "id": "aus-row", "sets": 3, "target": 12, "restSec": 90 },
+        { "id": "lsit", "sets": 5, "target": 7, "restSec": 60 },
+        { "id": "hollow", "sets": 3, "target": 40, "restSec": 60 },
+        { "id": "pike-pushup", "sets": 2, "target": 8, "restSec": 90 }
+      ]
+    },
+    "cali-test": {
+      "type": "calisthenics", "title": "Tests + séance A légère",
+      "description": "Bien échauffé. Test tractions strictes au max (une seule série), 5 min de repos, test L-sit au max. Puis le reste en léger.",
+      "exercises": [
+        { "id": "pullup-test", "sets": 1, "target": 11, "restSec": 300 },
+        { "id": "lsit-test", "sets": 1, "target": 5, "restSec": 180 },
+        { "id": "aus-row", "sets": 2, "target": 10, "restSec": 90 },
+        { "id": "hollow", "sets": 2, "target": 30, "restSec": 60 }
+      ]
+    },
+    "cali-b-w1": {
+      "type": "calisthenics", "title": "Séance B : jambes et tirage",
+      "description": "Jambes le vendredi : tu as le week-end pour récupérer.",
+      "exercises": [
+        { "id": "pistol", "sets": 3, "target": 5, "restSec": 120 },
+        { "id": "bulgarian", "sets": 3, "target": 8, "restSec": 90 },
+        { "id": "sl-glute", "sets": 3, "target": 12, "restSec": 60 },
+        { "id": "chinup", "sets": 3, "target": 7, "restSec": 120 },
+        { "id": "knee-raise", "sets": 3, "target": 10, "restSec": 60 }
+      ]
+    },
+    "cali-b-w2": {
+      "type": "calisthenics", "title": "Séance B : jambes et tirage",
+      "description": "Jambes le vendredi : tu as le week-end pour récupérer.",
+      "exercises": [
+        { "id": "pistol", "sets": 3, "target": 6, "restSec": 120 },
+        { "id": "bulgarian", "sets": 3, "target": 10, "restSec": 90 },
+        { "id": "sl-glute", "sets": 3, "target": 15, "restSec": 60 },
+        { "id": "chinup", "sets": 3, "target": 8, "restSec": 120 },
+        { "id": "knee-raise", "sets": 3, "target": 12, "restSec": 60 }
+      ]
+    },
+    "cali-b-w4": {
+      "type": "calisthenics", "title": "Séance B : jambes et tirage (allégée)",
+      "description": "Semaine de tests : volume réduit.",
+      "exercises": [
+        { "id": "pistol", "sets": 2, "target": 5, "restSec": 120 },
+        { "id": "bulgarian", "sets": 2, "target": 8, "restSec": 90 },
+        { "id": "chinup", "sets": 2, "target": 7, "restSec": 120 },
+        { "id": "knee-raise", "sets": 2, "target": 10, "restSec": 60 }
+      ]
+    }
+  },
+  "weeks": [
+    { "label": "Semaine 1", "days": { "mon": ["run-easy-25", "cali-a-w1"], "wed": ["run-intervals-6x400"], "fri": ["cali-b-w1"], "weekend": ["run-long-8"] } },
+    { "label": "Semaine 2", "days": { "mon": ["run-easy-25", "cali-a-w2"], "wed": ["run-tempo-20"], "fri": ["cali-b-w2"], "weekend": ["run-long-8"] } },
+    { "label": "Semaine 3", "days": { "mon": ["run-easy-30", "cali-a-w3"], "wed": ["run-intervals-6x400"], "fri": ["cali-b-w2"], "weekend": ["run-long-8"] } },
+    { "label": "Semaine 4 : tests", "days": { "mon": ["run-easy-25", "cali-test"], "wed": ["run-test-5k"], "fri": ["cali-b-w4"], "weekend": ["run-long-8"] } }
+  ]
+}
