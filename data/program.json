@@ -113,20 +113,20 @@
       "runType": "easy",
       "title": "Footing facile 25 min",
       "plan": {
-        "distanceKm": 3.5,
+        "distanceKm": 3.2,
         "durationSec": 1500
       },
-      "description": "Allure où tu peux parler (~7:00/km). Le matin, ou après la calisthénie."
+      "description": "Allure confort, où tu peux parler (7:30–8:00/km). Le matin, ou après la calisthénie."
     },
     "run-easy-30": {
       "type": "run",
       "runType": "easy",
       "title": "Footing facile 30 min",
       "plan": {
-        "distanceKm": 4.3,
+        "distanceKm": 3.9,
         "durationSec": 1800
       },
-      "description": "Allure où tu peux parler (~7:00/km)."
+      "description": "Allure confort, où tu peux parler (7:30–8:00/km)."
     },
     "run-intervals-6x400": {
       "type": "run",
@@ -134,19 +134,19 @@
       "title": "Fractionné 6 × 400 m",
       "plan": {
         "distanceKm": 6,
-        "durationSec": 2700
+        "durationSec": 2940
       },
-      "description": "Échauffement 15 min facile, 6 × 400 m vite (~2:00 chacun) avec 1:30 de trot entre, retour au calme 10 min."
+      "description": "Échauffement 15 min en confort, 6 × 400 m vite (~2:30 chacun, soit ~6:15/km) avec 1:30 de trot entre, retour au calme 10 min."
     },
     "run-tempo-20": {
       "type": "run",
       "runType": "tempo",
       "title": "Tempo 20 min",
       "plan": {
-        "distanceKm": 7,
+        "distanceKm": 6.1,
         "durationSec": 2700
       },
-      "description": "Échauffement 15 min facile, 20 min à allure soutenue mais tenable (~6:00/km), retour au calme 10 min."
+      "description": "Échauffement 15 min en confort, 20 min à allure soutenue mais tenable (~6:50/km), retour au calme 10 min."
     },
     "run-long-8": {
       "type": "run",
@@ -154,9 +154,9 @@
       "title": "Sortie longue 8 km",
       "plan": {
         "distanceKm": 8,
-        "durationSec": 3360
+        "durationSec": 3720
       },
-      "description": "Bonus week-end. Tout en facile."
+      "description": "Bonus week-end. Tout en confort (7:30–8:00/km), marcher 1 min si besoin."
     },
     "run-test-5k": {
       "type": "run",
