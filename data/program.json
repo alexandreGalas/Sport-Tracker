@@ -171,13 +171,13 @@
     "cali-a-w1": {
       "type": "calisthenics",
       "title": "Séance A : tirage et gainage",
-      "description": "Volume de tractions sous-maximal : séries propres, 3-4 reps en réserve, 90 s de repos.",
+      "description": "Volume de tractions sous-maximal : séries propres, 2-3 reps en réserve, 2 min de repos (plus si besoin).",
       "exercises": [
         {
           "id": "pullup",
           "sets": 8,
-          "target": 6,
-          "restSec": 90
+          "target": 5,
+          "restSec": 120
         },
         {
           "id": "aus-row",
@@ -208,13 +208,13 @@
     "cali-a-w2": {
       "type": "calisthenics",
       "title": "Séance A : tirage et gainage",
-      "description": "Volume de tractions sous-maximal : séries propres, 3-4 reps en réserve, 90 s de repos.",
+      "description": "Volume de tractions sous-maximal : séries propres, 2-3 reps en réserve, 2 min de repos (plus si besoin).",
       "exercises": [
         {
           "id": "pullup",
-          "sets": 8,
-          "target": 7,
-          "restSec": 90
+          "sets": 9,
+          "target": 5,
+          "restSec": 120
         },
         {
           "id": "aus-row",
@@ -245,13 +245,13 @@
     "cali-a-w3": {
       "type": "calisthenics",
       "title": "Séance A : tirage et gainage",
-      "description": "Volume de tractions sous-maximal : séries propres, 3-4 reps en réserve, 90 s de repos.",
+      "description": "Volume de tractions sous-maximal : séries propres, 2-3 reps en réserve, 2 min de repos (plus si besoin).",
       "exercises": [
         {
           "id": "pullup",
-          "sets": 9,
-          "target": 7,
-          "restSec": 90
+          "sets": 8,
+          "target": 6,
+          "restSec": 120
         },
         {
           "id": "aus-row",
@@ -336,7 +336,7 @@
         {
           "id": "chinup",
           "sets": 4,
-          "target": 7,
+          "target": 5,
           "restSec": 120
         },
         {
@@ -373,7 +373,7 @@
         {
           "id": "chinup",
           "sets": 4,
-          "target": 8,
+          "target": 6,
           "restSec": 120
         },
         {
@@ -404,7 +404,7 @@
         {
           "id": "chinup",
           "sets": 2,
-          "target": 7,
+          "target": 5,
           "restSec": 120
         },
         {
