@@ -56,6 +56,20 @@
           "sets": []
         }
       ]
+    },
+    {
+      "id": "2026-11-11-run-intervals-6x400",
+      "date": "2026-11-11",
+      "sessionId": "run-intervals-6x400",
+      "status": "done",
+      "note": "Jai du faire du 6:30 pendant 2:30 a chaque fois",
+      "loggedAt": "2026-11-12T15:27:02.038Z",
+      "feeling": 2,
+      "run": {
+        "distanceKm": 3.73,
+        "durationSec": 1650,
+        "runType": "intervals"
+      }
     }
   ]
 }
