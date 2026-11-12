@@ -1,4 +1,61 @@
 {
   "version": 1,
-  "entries": []
+  "entries": [
+    {
+      "id": "2026-11-09-cali-a-w1",
+      "date": "2026-11-09",
+      "sessionId": "cali-a-w1",
+      "status": "done",
+      "note": "Seance ayant lieux apres une grosse séance tractions deux jours avant. \nFacile Lsit\nDifficile hollow",
+      "loggedAt": "2026-11-12T13:52:35.639Z",
+      "feeling": 3,
+      "exercises": [
+        {
+          "id": "pullup",
+          "skipped": false,
+          "sets": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "id": "aus-row",
+          "skipped": false,
+          "sets": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "id": "lsit",
+          "skipped": false,
+          "sets": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "id": "hollow",
+          "skipped": false,
+          "sets": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "id": "pike-pushup",
+          "skipped": true,
+          "sets": []
+        }
+      ]
+    }
+  ]
 }
