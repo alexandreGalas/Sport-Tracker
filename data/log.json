@@ -58,6 +58,20 @@
       ]
     },
     {
+      "id": "2026-11-09-run-easy-25",
+      "date": "2026-11-09",
+      "sessionId": "run-easy-25",
+      "status": "done",
+      "note": "",
+      "loggedAt": "2026-11-12T22:21:36.331Z",
+      "feeling": 3,
+      "run": {
+        "distanceKm": 5,
+        "durationSec": 2280,
+        "runType": "easy"
+      }
+    },
+    {
       "id": "2026-11-11-run-intervals-6x400",
       "date": "2026-11-11",
       "sessionId": "run-intervals-6x400",
