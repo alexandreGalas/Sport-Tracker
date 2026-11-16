@@ -85,6 +85,65 @@
         "durationSec": 1650,
         "runType": "intervals"
       }
+    },
+    {
+      "id": "2026-11-16-cali-a-w1",
+      "date": "2026-11-16",
+      "sessionId": "cali-a-w1",
+      "status": "done",
+      "note": "Difficile de faire 5x8 toutes les 2 minutes. Avec pljs de pause facile. \nL SIT 5s facile",
+      "loggedAt": "2026-11-16T14:22:59.494Z",
+      "feeling": 3,
+      "exercises": [
+        {
+          "id": "pullup",
+          "skipped": false,
+          "sets": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "id": "aus-row",
+          "skipped": false,
+          "sets": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "id": "lsit",
+          "skipped": false,
+          "sets": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "id": "hollow",
+          "skipped": false,
+          "sets": [
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "id": "pike-pushup",
+          "skipped": true,
+          "sets": []
+        }
+      ]
     }
   ]
 }
