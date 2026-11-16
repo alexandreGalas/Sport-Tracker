@@ -144,6 +144,20 @@
           "sets": []
         }
       ]
+    },
+    {
+      "id": "2026-11-16-run-easy-25",
+      "date": "2026-11-16",
+      "sessionId": "run-easy-25",
+      "status": "done",
+      "note": "154 bpm moyen (jaune)\nMax bpm 164 (orange)\n\nDifficile de se lancer, des moments de mieux parfois. J'aurais pu faire plus.",
+      "loggedAt": "2026-11-16T15:22:18.531Z",
+      "feeling": 3,
+      "run": {
+        "distanceKm": 4.08,
+        "durationSec": 1898,
+        "runType": "easy"
+      }
     }
   ]
 }
