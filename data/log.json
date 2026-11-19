@@ -158,6 +158,20 @@
         "durationSec": 1898,
         "runType": "easy"
       }
+    },
+    {
+      "id": "2026-11-18-run-intervals-6x400",
+      "date": "2026-11-18",
+      "sessionId": "run-intervals-6x400",
+      "status": "done",
+      "note": "6 fois 2:30 autour de 6:00/KM \n1:30 de récupération \n\nPuis vitesse jogging avant apres",
+      "loggedAt": "2026-11-19T12:09:45.555Z",
+      "feeling": 3,
+      "run": {
+        "distanceKm": 5.05,
+        "durationSec": 2086,
+        "runType": "intervals"
+      }
     }
   ]
 }
