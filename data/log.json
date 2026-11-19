@@ -172,6 +172,51 @@
         "durationSec": 2086,
         "runType": "intervals"
       }
+    },
+    {
+      "id": "2026-11-20-cali-b-w1",
+      "date": "2026-11-20",
+      "sessionId": "cali-b-w1",
+      "status": "done",
+      "note": "",
+      "loggedAt": "2026-11-19T18:35:52.580Z",
+      "exercises": [
+        {
+          "id": "pistol",
+          "skipped": true,
+          "sets": []
+        },
+        {
+          "id": "bulgarian",
+          "skipped": true,
+          "sets": []
+        },
+        {
+          "id": "sl-glute",
+          "skipped": true,
+          "sets": []
+        },
+        {
+          "id": "chinup",
+          "skipped": false,
+          "sets": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "id": "knee-raise",
+          "skipped": true,
+          "sets": []
+        }
+      ]
     }
   ]
 }
