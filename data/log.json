@@ -236,36 +236,33 @@
       "id": "2026-11-23-cali-a-w2",
       "date": "2026-11-23",
       "sessionId": "cali-a-w2",
-      "status": "done",
+      "status": "partial",
       "note": "",
-      "loggedAt": "2026-11-23T21:04:49.151Z",
+      "loggedAt": "2026-11-23T21:05:13.139Z",
       "exercises": [
         {
           "id": "pullup",
           "skipped": false,
           "sets": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
             8
           ]
         },
         {
           "id": "aus-row",
-          "skipped": false,
-          "sets": [
-            12,
-            12,
-            12
-          ]
+          "skipped": true,
+          "sets": []
         },
         {
           "id": "lsit",
-          "skipped": false,
-          "sets": [
-            6,
-            6,
-            6,
-            6,
-            6
-          ]
+          "skipped": true,
+          "sets": []
         },
         {
           "id": "hollow",
@@ -278,11 +275,8 @@
         },
         {
           "id": "pike-pushup",
-          "skipped": false,
-          "sets": [
-            8,
-            8
-          ]
+          "skipped": true,
+          "sets": []
         }
       ]
     }
