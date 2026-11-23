@@ -231,6 +231,60 @@
         "durationSec": 3780,
         "runType": "long"
       }
+    },
+    {
+      "id": "2026-11-23-cali-a-w2",
+      "date": "2026-11-23",
+      "sessionId": "cali-a-w2",
+      "status": "done",
+      "note": "",
+      "loggedAt": "2026-11-23T21:04:49.151Z",
+      "exercises": [
+        {
+          "id": "pullup",
+          "skipped": false,
+          "sets": [
+            8
+          ]
+        },
+        {
+          "id": "aus-row",
+          "skipped": false,
+          "sets": [
+            12,
+            12,
+            12
+          ]
+        },
+        {
+          "id": "lsit",
+          "skipped": false,
+          "sets": [
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "id": "hollow",
+          "skipped": false,
+          "sets": [
+            35,
+            35,
+            35
+          ]
+        },
+        {
+          "id": "pike-pushup",
+          "skipped": false,
+          "sets": [
+            8,
+            8
+          ]
+        }
+      ]
     }
   ]
 }
