@@ -287,6 +287,64 @@
       "status": "skipped",
       "note": "Grosse douleur au pieds jattends d'aller mieux",
       "loggedAt": "2026-11-23T21:05:32.838Z"
+    },
+    {
+      "id": "2026-11-27-cali-b-w2",
+      "date": "2026-11-27",
+      "sessionId": "cali-b-w2",
+      "status": "done",
+      "note": "",
+      "loggedAt": "2026-11-26T19:49:03.294Z",
+      "feeling": 3,
+      "exercises": [
+        {
+          "id": "pistol",
+          "skipped": false,
+          "sets": [
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "id": "bulgarian",
+          "skipped": false,
+          "sets": [
+            10,
+            10,
+            10
+          ]
+        },
+        {
+          "id": "sl-glute",
+          "skipped": false,
+          "sets": [
+            15,
+            15,
+            15
+          ]
+        },
+        {
+          "id": "chinup",
+          "skipped": false,
+          "sets": [
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "id": "knee-raise",
+          "skipped": false,
+          "sets": [
+            12,
+            12,
+            12
+          ]
+        }
+      ]
     }
   ]
 }
