@@ -289,6 +289,19 @@
       "loggedAt": "2026-11-23T21:05:32.838Z"
     },
     {
+      "id": "2026-11-25-run-tempo-20",
+      "date": "2026-11-25",
+      "sessionId": "run-tempo-20",
+      "status": "done",
+      "note": "Au lieu de courir jai fait du vélo 4:4 norvégien pendant 40 minutes",
+      "loggedAt": "2026-11-26T19:49:52.654Z",
+      "run": {
+        "distanceKm": 6.1,
+        "durationSec": 2700,
+        "runType": "tempo"
+      }
+    },
+    {
       "id": "2026-11-27-cali-b-w2",
       "date": "2026-11-27",
       "sessionId": "cali-b-w2",
